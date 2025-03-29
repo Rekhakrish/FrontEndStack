@@ -1,0 +1,35 @@
+*{
+    background-color:  #fff;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size: 14px;
+    height: 100vh;
+    color: #333;
+    background-color: #fff;
+    display: flex;
+}
+.Rightside{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 40px;
+}
+.Maindiv{
+    width: 50%;
+    /* background-image: url(./image.jpg); */
+    background-size: cover;
+    background-position: center;
+}
+.logo1{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    width: 110%;
+    max-width: 149px;
+    margin: 0;
+    color: transparent;
+}

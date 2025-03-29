@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise</title>
+    <style>
+        /* .Layout{
+            display: grid;
+            grid-template-columns: repeat(3,2fr);
+            grid-template-rows: repeat(3,2fr);
+            height: 500px;
+            width: 500px;
+            border: 4px solid black;
+            justify-items: center;
+            align-items: center;
+            background-color: pink;
+        }
+        .header{
+            grid-column: span 3;
+            justify-self: center;         /* Horizontally center the content */
+            /* align-self: center;  
+            
+        }
+        .footer{
+            grid-column: span 3;
+            /* grid-column-start: 1;
+            grid-column-end: 3; */
+            /* justify-items: center;
+            align-items: center;
+        }  */ 
+.Layout div{
+    border: 1px solid black;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    font-size: 2 rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Layout{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-areas: 
+    "h h h"
+    "sb1 m sb2"
+    "f f f";
+}
+.header{
+    grid-area: h;
+}
+.sidebar1{
+    grid-area: sb1;
+}
+.sidebar2{
+    grid-area: sb2;
+}
+.footer{
+    grid-area: f;
+}
+.main{
+    grid-area: m;
+}
+
+    </style>
+</head>
+<body>
+    <Div class="Layout">
+        <div class="header">Header</div>
+        <div class="sidebar1">Sidebar1</div>
+        <div class="main">Maincontent</div>
+        <div class="sidebar2">Sidebar2</div>
+        <div class="footer">Footer</div>
+        <a href="mailto:someone@example.com?subject=Hello&body=I would like to know more.">Email Us</a>
+        <a href="file.pdf" download>Download the PDF</a>
+        <a href="#services">Go to Services Section</a>
+        <h2 id="services">Our Services</h2>
+        <a href="https://www.wikipedia.org" target="_blank">Visit Wikipedia</a>
+        <a href="/about.html">About Us</a>
+        <img src="./goal.png" alt="Goal For Practice" title="Click to view the full image" height="100" width="100">
+
+    </Div>
+</body>
+</html>

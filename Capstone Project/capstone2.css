@@ -1,0 +1,8 @@
+.backgrnd{
+    height: 600px;
+    width: 100%;
+}
+
+.Container{
+    display: flex;
+}
